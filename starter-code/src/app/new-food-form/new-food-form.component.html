@@ -1,0 +1,8 @@
+<form class="new-Food">
+  <h3>Add new Food</h3>
+    Name: <input type="text" [(ngModel)]="newFood.name" name="foodName">
+    Calories: <input type="text" [(ngModel)]="newFood.calories" name="foodCalories">
+    Quantity<input type="text"   [(ngModel)]="newFood.quantity" name="foodQuantity">
+    ImageURL: <input type="text" [(ngModel)]="newFood.image" name="foodImage"><br>
+    <button type="submit" (click)="handleSubmitClick()">Add new FoodItem</button>
+</form>
